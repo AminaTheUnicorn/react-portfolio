@@ -1,3 +1,13 @@
 nav{
     justify-content: center;
 }
+
+.navbar-brand {
+   font-family:  'Nunito', sans-serif;
+   font-weight: 600;
+}
+
+.nav-link{
+    color: #383e56;
+    font-family: 'Roboto', sans-serif;
+}

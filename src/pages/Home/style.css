@@ -1,0 +1,40 @@
+
+.jumbotron{
+    height: 450px;
+    background-color:rgba(51,94,234,.1);
+    color: #383e56;
+}
+.display-3 {
+    font-family:  'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    color: #335eea;
+ }
+ 
+ .lead{
+     font-family: 'Roboto', sans-serif;
+     margin-top: 40px;
+     margin-bottom: 1rem;
+     font-size: 25px;
+ }
+     
+
+
+ .row{
+    padding: 2% 10%;
+    
+ }
+ .btn{
+    border-radius: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+ }
+
+ .btn:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }

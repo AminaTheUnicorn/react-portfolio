@@ -7,7 +7,7 @@ function Navbar() {
 
         
         
-<nav class="nav">
+<nav class="nav col-md-12  mt-4">
     <a class="navbar-brand" href="#" >
         <span>Aminat Adesola | Portfolio</span>
     </a>
