@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Navbar/style.css"
 
 function Navbar() {
@@ -7,14 +8,14 @@ function Navbar() {
 
         
         
-<nav class="nav col-md-12  mt-4">
-    <a class="navbar-brand" href="#" >
+<nav class="nav row mt-4">
+    <a class="navbar-brand " href="#" >
         <span>Aminat Adesola | Portfolio</span>
     </a>
-  <a class="nav-link" href="#">Home</a>
-  <a class="nav-link" href="#">Portfolio</a>
-  <a class="nav-link" href="#">Case Studies</a>
-  <a class="nav-link " href="#">Contact</a>
+   <Link to="home"><a class="nav-link">Home</a></Link>
+  <Link to="portfolio"><a class="nav-link" >Portfolio</a></Link>
+  <Link to="caseStudies"><a class="nav-link" >Case Studies</a></Link>
+  < Link to="contact"><a class="nav-link">Contact</a></Link>
 </nav>
     )
 }

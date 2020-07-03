@@ -1,14 +1,16 @@
 
 .jumbotron{
     height: 450px;
-    background-color:rgba(51,94,234,.1);
+    background-color: white;
     color: #383e56;
+    margin-bottom: 11rem;
 }
 .display-3 {
     font-family:  'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 100px;
-    color: #335eea;
+    font-size: 74px;
+    color: #3f72af;
+    padding: 0% 6%;
  }
  
  .lead{
@@ -17,10 +19,13 @@
      margin-bottom: 1rem;
      font-size: 25px;
  }
-     
+
+ .card{
+ 
+ }
 
 
- .row{
+ .bannerBody{
     padding: 2% 10%;
     
  }
@@ -37,4 +42,30 @@
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
+  }
+
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #383e56;
+  }
+
+  h5{
+    padding: 0% 6%;
+  }
+
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #76798a;
+    padding: 0% 6%;
+   
+  }
+
+  .word{
+    color:#007bff;;
+  }
+
+  .aboutDiv{
+      background-color: #e6f4ff;
   }
