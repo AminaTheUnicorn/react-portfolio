@@ -8,14 +8,14 @@ function Navbar() {
 
         
         
-<nav class="nav row mt-4">
-    <a class="navbar-brand " href="#" >
+<nav className="nav row mt-4">
+    <a className="navbar-brand " href="#" >
         <span>Aminat Adesola | Portfolio</span>
     </a>
-   <Link to="/"><a class="nav-link">Home</a></Link>
-  <Link to="/portfolio"><a class="nav-link" >Portfolio</a></Link>
-  <Link to="/caseStudies"><a class="nav-link" >Case Studies</a></Link>
-  < Link to="/contact"><a class="nav-link">Contact</a></Link>
+   <Link to="/"><a className="nav-link">Home</a></Link>
+  <Link to="/portfolio"><a className="nav-link" >Portfolio</a></Link>
+  <Link to="/caseStudies"><a className="nav-link" >Case Studies</a></Link>
+  < Link to="/contact"><a className="nav-link">Contact</a></Link>
 </nav>
     )
 }
