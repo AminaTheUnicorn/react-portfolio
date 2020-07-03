@@ -45,19 +45,17 @@ the opportunity to put my expertise to work for your company.
 </p>
 </div> */}
 </div>
+
 <div class="card aboutDiv col-6" style={{width: "50rem"}}>
   <div class="card-body">
-    <h5 class="card-title">About Me</h5>
-    <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk of the card's content.
-    </p>
+  <blockquote class="blockquote text-center">
+  <p class="mb-0"> “How do I explain what I do at a party? The short version is that I say I humanize technology.”</p>
+  <footer class="blockquote-footer"> Fred Beecher, Director of UX, The Nerderyrd's content. <cite title="Source Title">https://careerfoundry.com/</cite></footer>
+</blockquote>
+
 
   </div>
-  <div col-6> 
-  <div class="text-center">
-  <img src="../assets/web-profile-pic.svg" class="rounded" alt="..."/>
-</div>
-  </div>
+ 
 </div>
 
 

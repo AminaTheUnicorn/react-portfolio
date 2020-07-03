@@ -12,10 +12,10 @@ function Navbar() {
     <a class="navbar-brand " href="#" >
         <span>Aminat Adesola | Portfolio</span>
     </a>
-   <Link to="home"><a class="nav-link">Home</a></Link>
-  <Link to="portfolio"><a class="nav-link" >Portfolio</a></Link>
-  <Link to="caseStudies"><a class="nav-link" >Case Studies</a></Link>
-  < Link to="contact"><a class="nav-link">Contact</a></Link>
+   <Link to="/"><a class="nav-link">Home</a></Link>
+  <Link to="/portfolio"><a class="nav-link" >Portfolio</a></Link>
+  <Link to="/caseStudies"><a class="nav-link" >Case Studies</a></Link>
+  < Link to="/contact"><a class="nav-link">Contact</a></Link>
 </nav>
     )
 }
