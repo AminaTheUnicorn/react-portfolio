@@ -1,0 +1,30 @@
+h1{
+    font-size: 5.5rem; 
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 800;
+
+}
+
+h6 {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 53px;
+  
+}
+
+.colorBlock{
+ color: #9747ff;
+}
+
+p{
+    color: #28262c;
+    line-height: 35px;
+}
+
+.portBtn{
+    background-color:  #9747ff;
+    color: white;
+}
