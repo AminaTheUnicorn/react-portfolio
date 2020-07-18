@@ -1,8 +1,15 @@
 #footer{
     margin-top: 11rem;
+    color: #edeafc;
     background-color:  #9747ff;
 }
 
 a.footer {
-    color: white;
+    font-weight: 700;
+    font-size: small;
+    color: #edeafc;
+}
+
+.socialDiv{
+    font-size: xx-large;
 }

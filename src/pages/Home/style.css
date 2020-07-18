@@ -26,5 +26,11 @@ p{
 
 .portBtn{
     background-color:  #9747ff;
+    font-weight: 600;
     color: white;
+}
+
+a.nav-item.nav-link {
+    color:#28262c;
+
 }

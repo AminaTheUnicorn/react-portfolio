@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "User Directory",
+      "summary": "Find and view entire employee directory at once to have quick access to their information.",
+      "site": "https://aminatheunicorn.github.io/user-directory/"
+    },
+    {
+      "id": 2,
+      "title": "Weather Dashboard",
+      "summary": "The weather dashboard that will run in the browser and feature dynamically weather updates, which will allow users to view current weather in their city.",
+      "site": "https://aminatheunicorn.github.io/Weather-Dashboard/"
+    },
+    {
+      "id": 3,
+      "title": "Eat-Da-Burger",
+      "summary": "A restaurant app that lets users input the names of burgers they'd wish to eat. You have the option to save a burger later or devour it.",
+      "site": "https://eat-burger-web-app.herokuapp.com/"
+    }
+  ]
+  
