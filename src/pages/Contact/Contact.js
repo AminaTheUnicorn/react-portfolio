@@ -13,17 +13,15 @@ function Contact() {
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <form name="contact" method="POST" data-netlify="true">
           <div class="form-group">
-            <label>Name</label>
-            <input type="text" name="name" class="form-control" id="Inputname1" aria-describedby="nameHelp"/>
+            <label>Name: <input type="text" name="name" class="form-control" id="Inputname1" aria-describedby="nameHelp"/></label>
+           
           </div>
           <div class="form-group">
-            <label>Email address</label>
-            <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"/>
+            <label>Email address: <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"/></label>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
-             <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+             <label for="exampleFormControlTextarea1">Message: <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea></label>
           </div>
           
           <button type="submit" class="btn btn-primary">Submit</button>
