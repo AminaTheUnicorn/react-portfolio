@@ -1,4 +1,6 @@
-
+a.nav-item.nav-link {
+    color: rgb(87, 45, 240);
+}
 
 .navbar-brand {
    font-family:  'Nunito', sans-serif;
