@@ -9,19 +9,21 @@ function Contact() {
   <div class="col mb-4">
     <div class="border-0 card">
       <div class="card-body">
-        <h5 class="text-center card-title">GET IN TOUCH</h5>
+        <h5 class="text-center card-title">GET IN </h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="post" data-netlify="true">
           <div class="form-group">
-            <label>Name: <input type="text" name="name" class="form-control" id="Inputname1" aria-describedby="nameHelp"/></label>
-           
+            <label>Name</label>
+            <input type="hidden" name="form-name" value="contact" class="form-control" id="Inputname1" />
           </div>
           <div class="form-group">
-            <label>Email address: <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"/></label>
+            <label>Email address</label>
+            <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"/>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
-             <label for="exampleFormControlTextarea1">Message: <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea></label>
+             <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           
           <button type="submit" class="btn btn-primary">Submit</button>
