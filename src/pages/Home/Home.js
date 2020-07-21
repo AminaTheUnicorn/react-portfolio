@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SmCard from "../../components/ProgressBar/ProgressBar";
 import "./style.css";
 import Image from "../../assets/Logo";
 
@@ -18,14 +19,10 @@ function Home() {
          sometimes designing) exceptional, reponsive websites and
         applications.
       </h6>
-      {/* <div className="btnDiv">
-      <button type="button" className="btn btn-lg">
-        Get In Touch
-      </button>
-      <button type="button" className="btn btn-lg">
-        Portfolio
-      </button>
-      </div> */}
+      <div className="btnDiv">
+      <a href="https://www.dropbox.com/s/9h7iqe1cqxeccmo/Aminat-Resume%20%287%29.pdf?dl=0" class="btn portBtn btn-lg " tabindex="-1" role="button" aria-disabled="true">Download CV</a>
+          
+      </div>
     </div>
 </div>
  
@@ -48,6 +45,11 @@ function Home() {
         <Link to="/portfolio"  className="btn portBtn">View Portfolio</Link>
       </div>
   </div>
+<div className="skillDiv mt-5">
+  <h2 className="skillTitle"> Skillset</h2>
+  <SmCard></SmCard>
+
+</div>
   </>
 
     )
