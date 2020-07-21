@@ -4,15 +4,21 @@ import React from "react";
 function Contact (){
 
   return(
-    <>
-    <div class="card text-left">
-      <img class="card-img-top" src="holder.js/100px180/" alt=""/>
-      <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Body</p>
-      </div>
-    </div>
-    </>
+    <form name="contact" method="post" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+  
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
   )
 }
 

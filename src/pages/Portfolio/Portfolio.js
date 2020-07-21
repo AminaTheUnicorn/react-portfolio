@@ -14,18 +14,21 @@ function Portfolio() {
           image={require("./img/employee-directory.PNG")}
           title={content[0].title}
           summary={content[0].summary}
+          href={content[0].site}
         />
 
         <Card
         image={require("./img/weather-dash.PNG")}
         title={content[1].title}
         summary={content[1].summary}
+        href={content[1].site}
         />
 
         <Card
         image={require("./img/burger-app.PNG")}
         title={content[2].title}
         summary={content[2].summary}
+        href={content[2].site}
         />
 
 
