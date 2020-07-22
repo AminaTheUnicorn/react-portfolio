@@ -21,7 +21,7 @@ function Footer() {
       </div>
     
   <div className="col-md-6 footer-copyright text-center py-3">© 2020 Copyright:
-    <a className="copyR"href="https://mdbootstrap.com/"> Aminat Portfolio</a>
+    <a className="copyR"href="aminat-portfolio.netlify.app"> Aminat Portfolio</a>
   </div>
     </div>
   
