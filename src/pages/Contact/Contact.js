@@ -9,7 +9,7 @@ function Contact (){
 
     <div className="row">
       <div className="col-6">
-      <form name="contact" method="post">
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <div className=" form-group">
       <label for="exampleInputEmail1">Email Address</label>
       <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
