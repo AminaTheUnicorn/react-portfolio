@@ -42,7 +42,7 @@ function Home() {
         to a corporate's technology team. I would love the opportunity to grow in 
         a workplace that allows me to continuously learn and make a difference. 
         </p>
-        <Link to="/portfolio"  className="btn portBtn">View Portfolio</Link>
+        <Link to="/portfolio"  className="btn">View Portfolio</Link>
       </div>
   </div>
 <div className="skillDiv mt-5">

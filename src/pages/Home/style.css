@@ -35,3 +35,23 @@ small, small {
     font-weight: 600;
     color: white;
 }
+.progress{
+    background-color: #e8f0ff;
+}
+.progress-bar{
+    background-color: #9747ff;
+    color: white;
+}
+
+.btn {
+    background-color: #e8f0ff;
+    font-weight: 600;
+    color: #9747ff;
+    border-color: #9747ff;
+}
+
+.btn:hover {
+    background-color: #9747ff;
+    color: white;
+ 
+}

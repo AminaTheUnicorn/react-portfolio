@@ -1,15 +1,27 @@
 #footer{
     margin-top: 11rem;
     color: #edeafc;
-    background-color:  #9747ff;
 }
-
-a.footer {
-    font-weight: 700;
+#footerBod{
+    background-color:  #9747ff;
+    
+}
+.text-uppercase{
+  color:  #e8f0ff;
+}
+.footLink{
+    color: #edeafc;
+}
+.col-md-3.mb-md-0.mb-3 {
+padding: 1.5%;
+}
+a.mr-4.footLink,.copyR,a.footLink,.col-md-6.footer-copyright.text-center.py-3{
+    font-weight: 800;
     font-size: small;
     color: #edeafc;
 }
 
-.socialDiv{
-    font-size: xx-large;
+
+.footer-copyright{
+   color:  #edeafc;
 }

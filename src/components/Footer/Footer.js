@@ -6,24 +6,30 @@ import "./style.css";
 function Footer() {
 
     return(
-        <footer id="footer" class="py-4">
-        <div class="row mx-auto container ">
-        
-          <div className="col-6 col-xs-12 footNav text-center" style={{color:"white"}}> 
-            <Link to="/"><a className="H-footer mr-3">Home | </a></Link>
-            <Link to="/portfolio"><a className="P-footer mr-3" >Portfolio |</a></Link>
-            <Link to="/caseStudies"><a className="CS-footer mr-3" >Case Studies |</a></Link>
-            <Link to="/contact"><a className="C-footer mr-3">Contact</a></Link>
-          </div>
-          {/* <small>Copyright &copy; Your Website</small> */}
-          <div className="col-6 col-xs-12 socialDiv text-center">
-            <a href="https://www.w3schools.com" class="fab fa-github-square mr-3" ></a>
-            <a href="https://www.w3schools.com" class="fab fa-linkedin mr-3"></a>
-            <a href="https://www.w3schools.com" class="fas fa-envelope mr-3"></a>
-          </div>
-       
-        </div>
-      </footer>
+    
+
+<footer className="mt-5 page-footer font-small blue pt-4">
+  <div className="container-fluid text-center text-md-left" id="footerBod">
+    <div className="row" >
+      <div className="text-center py-3 col-md-6 mx-auto mb-md-0 mb-3">
+
+          <Link to="/"><a className="mr-4 footLink">Home |</a></Link>
+          <Link to="/portfolio"><a className="mr-4 footLink" >Portfolio |</a></Link>
+          <Link to="/caseStudies"><a className="mr-4 footLink" >Case Studies |</a></Link>
+          <Link to="/contact"><a className="footLink">Contact</a></Link>
+  
+      </div>
+    
+  <div className="col-md-6 footer-copyright text-center py-3">© 2020 Copyright:
+    <a className="copyR"href="https://mdbootstrap.com/"> Aminat Portfolio</a>
+  </div>
+    </div>
+  
+  </div>
+  
+
+</footer>
+
     )
 }
 
