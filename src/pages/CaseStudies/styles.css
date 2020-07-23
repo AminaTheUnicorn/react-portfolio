@@ -1,0 +1,15 @@
+#researchB,#defineB,#designB,#topCard {
+    padding: 2% 13%;
+}
+
+#researchT,#defineT,#designT{
+font-weight: 700;
+
+}
+
+
+.fa-search,.fa-lightbulb,.fa-pencil-ruler{
+    
+    color: #8a32fc;
+    font-size: xx-large;
+}

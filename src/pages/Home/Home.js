@@ -38,7 +38,7 @@ function Home() {
         <h2> About </h2>
         <p>
         Hi! As a developer, I value innovation to support the client’s needs, 
-          to design new and impactful applications. With My background in creative problem solving and web development would be of value 
+        which means designing new and impactful applications. With My background in creative problem solving and web development would be of value 
         to a corporate's technology team. I would love the opportunity to grow in 
         a workplace that allows me to continuously learn and make a difference. 
         </p>

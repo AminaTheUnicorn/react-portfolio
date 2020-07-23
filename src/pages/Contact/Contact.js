@@ -32,32 +32,50 @@ import React from "react";
       const { name, email, message } = this.state;
       return (
         <div className="row">
-      <div className="col-6">
-      <form onSubmit={this.handleSubmit}>
-      <div className=" form-group">
-            <label>Your Name:</label>
-            <input className="form-control" type="text" name="name" value={name} onChange={this.handleChange} />
-      </div>
-        <div className=" form-group">
-            <label> Your Email:</label>
-            <input  className="form-control" type="email" name="email" value={email} onChange={this.handleChange} />
-        </div>
-        <div className=" form-group">
-            <label> Message:</label>
-            <textarea  className="form-control" name="message" value={message} onChange={this.handleChange} />
-        </div>
-            <button className="btn btn-primary" type="submit">Send</button>
-        </form>
-      </div>
+          <div className="col-md-6 col-sm-12">
+          <form onSubmit={this.handleSubmit}>
+          <div className=" form-group">
+                <label></label>
+                <input placeholder="Your Name" className="form-control" type="text" name="name" value={name} onChange={this.handleChange} />
+          </div>
+            <div className=" form-group">
+                <label></label>
+                <input placeholder="Your Email" className="form-control" type="email" name="email" value={email} onChange={this.handleChange} />
+            </div>
+            <div className=" form-group">
+                <label></label>
+                <textarea placeholder="Message" className="form-control" name="message" value={message} onChange={this.handleChange} />
+            </div>
+                <button className="mb-5 btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
 
-      
-<div className="col-6 border-0 card" style={{backgroundColor:"#e8f0ff"}}>
+<div className="col-md-6 col-sm-12 border-0 card" style={{backgroundColor:"#e8f0ff"}}>
   <div class="card-body">
     <h2 class="card-title text-center" style={{color:"#9747ff"}}>Get In Touch</h2>
     <p class="card-text">
-      Feel free to leave a message, even just to say hi. Or look for me on my 
+      Feel free to leave a message, even if it's just to say hi. Or look for me on my 
       other social media platforms.
     </p>
+    <p>
+      <a class="" href="#collapseExample" role="button" >
+      <i class="mr-5 fab fa-github"></i>
+      https://github.com/AminaTheUnicorn
+      </a>
+    </p>
+    <p>
+      <a class="" href="#collapseExample" role="button" >
+      <i class="mr-5 fab fa-linkedin"></i>
+      https://www.linkedin.com/in/aminat-adesola/  
+      </a>
+    </p>
+    <p>
+        <a class="" href="#collapseExample" role="button" >
+          <i class="mr-5 fas fa-map-marker"></i>
+          Dallas, TX
+         </a>
+    </p>
+    
   </div>
 </div>
       </div>
