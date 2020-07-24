@@ -57,26 +57,22 @@ function App() {
 
 
     <form onSubmit={handleSubmit} action="/thank-you/">
-          <p>
+       
             <label>
             </label>
               <input placeholder="Your Name" className="form-control" type="text" name="name" value={name} onChange={handleChange} />
-          </p>
-          <p>
+      
             <label>
             </label>
              <input placeholder="Email Address" className="form-control" type="email" name="email" value={email} onChange={handleChange} />
-          </p>
-          <p>
+      
             <label>
             </label>
             <textarea placeholder="Message" className="form-control" name="message" value={message} onChange={handleChange} />
-          </p>
-         
-          <p> 
+        
+        
         <button className="mb-5 btn btn-primary" type="submit">Send</button>
-          </p>
-        </form>
+       </form>
 
         <h6>{status}</h6>
     </div>
