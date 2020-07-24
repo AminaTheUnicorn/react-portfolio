@@ -7,6 +7,7 @@ Portfolio built usign react, to showcase web app projects and skill. Please feel
 - React JS
 - Bootstrap
 - Netlify form
+- react-dropzone
 
 
 ## View Site
