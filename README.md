@@ -10,3 +10,4 @@ Portfolio built usign react, to showcase web app projects and skill. Please feel
 
 
 ## View Site
+https://aminat-portfolio.netlify.app
