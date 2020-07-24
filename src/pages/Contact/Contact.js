@@ -58,16 +58,22 @@ import React from "react";
       other social media platforms.
     </p>
     <p>
-      <a class="" href="#collapseExample" role="button" >
+      <a class="" href="https://github.com/AminaTheUnicorn" role="button" >
       <i class="mr-5 fab fa-github"></i>
       https://github.com/AminaTheUnicorn
       </a>
     </p>
     <p>
-      <a class="" href="#collapseExample" role="button" >
+      <a class="" href="#https://www.linkedin.com/in/aminat-adesola/" role="button" >
       <i class="mr-5 fab fa-linkedin"></i>
       https://www.linkedin.com/in/aminat-adesola/  
       </a>
+    </p>
+    <p>
+        <a class="" href="mailto:aminatadesola@gmail.com" role="button" >
+        <i class="fas fa-envelope"></i>
+          Send email
+         </a>
     </p>
     <p>
         <a class="" href="#collapseExample" role="button" >
@@ -75,6 +81,8 @@ import React from "react";
           Dallas, TX
          </a>
     </p>
+
+    
     
   </div>
 </div>
