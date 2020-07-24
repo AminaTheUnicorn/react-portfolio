@@ -71,7 +71,7 @@ function App() {
             <textarea placeholder="Message" className="form-control" name="message" value={message} onChange={handleChange} />
         
         
-        <button className="mb-5 btn btn-primary" type="submit">Send</button>
+        <button className=" mt-4 mb-5 btn btn-primary" type="submit">Send</button>
        </form>
 
         <h6>{status}</h6>

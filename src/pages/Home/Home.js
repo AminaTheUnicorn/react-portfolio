@@ -18,7 +18,7 @@ function Home() {
       I'm a web developer and designer based in Dallas, TX building (and sometimes designing)
        exceptional, responsive websites and applications.
       </h6>
-      <div className="btnDiv">
+      <div className="mt-4 btnDiv">
       <a href="https://www.dropbox.com/s/9h7iqe1cqxeccmo/Aminat-Resume%20%287%29.pdf?dl=0" class="btn portBtn btn-lg " tabindex="-1" role="button" aria-disabled="true">Download CV</a>
           
       </div>
