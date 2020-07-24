@@ -31,7 +31,7 @@ function App() {
       // headers: { "Content-Type": 'multipart/form-data; boundary=random' },
       body: encode(data)
     })
-      .then(() => setStatus("Form Submission Successful!!"))
+      .then(() => setStatus("Message Sent, Thank you!"))
       .catch(error => setStatus("Form Submission Failed!"));
 
     e.preventDefault();
@@ -52,29 +52,72 @@ function App() {
 
   return (
     <div className="App">
+      <div className="row">
+  <div className="col-md-6 col-sm-12">
+
+
     <form onSubmit={handleSubmit} action="/thank-you/">
           <p>
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={handleChange} />
             </label>
+              <input placeholder="Your Name" className="form-control" type="text" name="name" value={name} onChange={handleChange} />
           </p>
           <p>
             <label>
-              Your Email: <input type="email" name="email" value={email} onChange={handleChange} />
             </label>
+             <input placeholder="Email Address" className="form-control" type="email" name="email" value={email} onChange={handleChange} />
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={handleChange} />
             </label>
+            <textarea placeholder="Message" className="form-control" name="message" value={message} onChange={handleChange} />
           </p>
          
-          <p>
-            <button type="submit">Send</button>
+          <p> 
+        <button className="mb-5 btn btn-primary" type="submit">Send</button>
           </p>
         </form>
-        <h3>{status}</h3>
+
+        <h6>{status}</h6>
     </div>
+
+    <div className="col-md-6 col-sm-12 border-0 card" style={{backgroundColor:"#e8f0ff"}}>
+<div class="card-body">
+<h2 class="card-title text-center" style={{color:"#9747ff"}}>Get In Touch</h2>
+<p class="card-text">
+Feel free to leave a message, even if it's just to say hi. Or look for me on my 
+other social media platforms.
+</p>
+<p>
+<a class="" href="https://github.com/AminaTheUnicorn" role="button" >
+<i class="mr-3 fab fa-github"></i>
+https://github.com/AminaTheUnicorn
+</a>
+</p>
+<p>
+<a class="" href="#https://www.linkedin.com/in/aminat-adesola/" role="button" >
+<i class="mr-3 fab fa-linkedin"></i>
+https://www.linkedin.com/in/aminat-adesola/  
+</a>
+</p>
+<p>
+<a class="" href="mailto:aminatadesola@gmail.com" role="button" >
+<i class="mr-3 fas fa-envelope"></i>
+  Send email
+ </a>
+</p>
+<p>
+<a class="" href="#collapseExample" role="button" >
+  <i class="mr-3 fas fa-map-marker"></i>
+  Dallas, TX
+ </a>
+</p>
+
+</div>
+
+</div>
+      </div>
+      </div>
   );
 }
 
