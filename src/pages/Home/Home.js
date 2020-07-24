@@ -15,9 +15,8 @@ function Home() {
       <h3>Hi, my name is</h3>
       <h1 className=""><span className="colorBlock">Aminat Adesola</span>. I build things for the <span className="colorBlock">web</span>.</h1>
       <h6 className="mt-4">
-        I'm a web developer and designer based in Dallas,TX specializing in building (and
-         sometimes designing) exceptional, reponsive websites and
-        applications.
+      I'm a web developer and designer based in Dallas, TX building (and sometimes designing)
+       exceptional, responsive websites and applications.
       </h6>
       <div className="btnDiv">
       <a href="https://www.dropbox.com/s/9h7iqe1cqxeccmo/Aminat-Resume%20%287%29.pdf?dl=0" class="btn portBtn btn-lg " tabindex="-1" role="button" aria-disabled="true">Download CV</a>
@@ -37,10 +36,9 @@ function Home() {
       <div className="mt-4 col-md-6 sm-12">
         <h2> About </h2>
         <p>
-        Hi! As a developer, I value innovation to support the client’s needs, 
-        which means designing new and impactful applications. With My background in creative problem solving and web development would be of value 
-        to a corporate's technology team. I would love the opportunity to grow in 
-        a workplace that allows me to continuously learn and make a difference. 
+        I'm a web developer that values supporting the client’s needs to create new and impactful applications. 
+        I’m passionate about web development and design in all it’s forms and helping businesses to improve their online presence.
+        Check out my portfolio or get in touch with me (even just to say hi)!
         </p>
         <Link to="/portfolio"  className="btn">View Portfolio</Link>
       </div>

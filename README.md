@@ -6,9 +6,7 @@ Portfolio built usign react, to showcase web app projects and skill. Please feel
 ## Technology Used
 - React JS
 - Bootstrap
-- Heroku
+- Netlify form
 
-
-## Future Improvements
 
 ## View Site

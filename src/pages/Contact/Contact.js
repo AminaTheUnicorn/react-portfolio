@@ -20,7 +20,7 @@ import React from "react";
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...this.state })
       })
-        .then(() => alert("Success!"))
+        .then(() => alert("Message Sent!"))
         .catch(error => alert(error));
 
       e.preventDefault();

@@ -13,7 +13,7 @@ function CaseStudies() {
         <div class="card-body">
           <h2 class="card-title text-center" style={{color:"#9747ff"}}>Design Process</h2>
           <p id="topCard"class="card-text">
-          Below is my recent work showcasing product experience at a few tech companies.
+          Below is some of my work showcasing the design and reat a few tech companies.
           Each case study takes you through my thought process on how I solve problems that generate user and business value.
           </p>
     
