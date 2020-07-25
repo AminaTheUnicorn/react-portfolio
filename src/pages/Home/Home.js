@@ -13,7 +13,7 @@ function Home() {
   <div className="row">
     <div className="col-12 homeDiv">
       <h3>Hi, my name is</h3>
-      <h1 className=""><span className="colorBlock">Aminat Adesola</span>. I build things for the <span className="colorBlock">web</span>.</h1>
+      <h1 className=""><span className="colorBlock">Aminat Adesola</span>. I create things for the <span className="colorBlock">web</span>.</h1>
       <h6 className="mt-4">
       I'm a web developer and designer based in Dallas, TX building (and sometimes designing)
        exceptional, responsive websites and applications.
