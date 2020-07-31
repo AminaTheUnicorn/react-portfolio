@@ -10,7 +10,10 @@ function Card(props) {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.summary}</p>
+        <p className="card-text"  style={{fontWeight:"600"}} >Technology used:</p>
+        <p className="card-text"> {props.tech}</p>
         <a href={props.href} className="card-link">View Site</a>
+        <a href={props.git} className="card-link">Github</a>
       </div>
     </div>
   </div>
